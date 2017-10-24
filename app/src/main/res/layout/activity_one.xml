@@ -48,7 +48,6 @@
             android:text="미니유 탭핑\n51분 38초"
             android:drawableLeft="@drawable/tapping_3"
             android:background="@drawable/button1"
-
             android:layout_marginTop="0dp"
             />
 
