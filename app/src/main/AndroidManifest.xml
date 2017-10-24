@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ip.myapplication">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Intro" />
+        <activity android:name=".OneActivity" />
+        <activity android:name=".TwoActivity" />
+        <activity android:name=".eatingSound" />
+        <activity android:name=".eatsound_2" />
+        <activity android:name=".eatsound_3" />
+        <activity android:name=".eatsound_4" />
+        <activity android:name=".eatsound_5" />
+        <activity android:name=".eatsound_6" />
+        <activity android:name=".tap" />
+        <activity android:name=".tap_2" />
+        <activity android:name=".tap_3" />
+        <activity android:name=".tap_4" />
+        <activity android:name=".tap_5" />
+        <activity android:name=".ASMRVideoActivity"></activity>
+    </application>
+
+</manifest>
